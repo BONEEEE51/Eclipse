@@ -154,7 +154,7 @@ axios@^0.20.0:
   dependencies:
     follow-redirects "^1.10.0"
 
-axios@^0.21.0, axios@^0.21.1:
+axios@^0.21.1:
   version "0.21.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
   integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
@@ -311,13 +311,13 @@ enquirer@^2.3.5:
   dependencies:
     ansi-colors "^4.1.1"
 
-erela.js-deezer@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/erela.js-deezer/-/erela.js-deezer-1.0.5.tgz#322cf122fc3222ac76b9c6f14281529a8aef6c98"
-  integrity sha512-8BNTufuQalcWM+N093wUSlsA2bgXzfnrh4tfY8SgQEf6XI3b1PP3E3D1q29Dv5/5aZOlzLK3UoOiDwZr4PVC3w==
+erela.js-deezer@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/erela.js-deezer/-/erela.js-deezer-1.0.7.tgz#4984782f25f6a1ad8ed92d2bdf5e9c52ee09a53f"
+  integrity sha512-14dlDL0bhNZprGFnueqyBNzBzOAvoNK02EIjNvPtpjX0WbUOmToaVp+h+Kqev4uaIfjZ5vl3kNFvP9HpmTurAw==
   dependencies:
     axios "^0.21.1"
-    erela.js "^2.3.1"
+    erela.js "^2.3.3"
 
 erela.js-spotify@^1.2.0:
   version "1.2.0"
@@ -327,16 +327,7 @@ erela.js-spotify@^1.2.0:
     axios "^0.20.0"
     erela.js "^2.2.0"
 
-erela.js@^2.2.0, erela.js@^2.3.1:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/erela.js/-/erela.js-2.3.2.tgz#94917fc919af6eafa21e15d6f3f1f2a96caca3fe"
-  integrity sha512-HWNn171qizzE4cANntmDAhRQDSeN6UYxoRN6485b7HMA4azLZdOHu8GfHrbiJ9G2Im9lE2sOYXYOvltpm2Uq3w==
-  dependencies:
-    "@discordjs/collection" "^0.1.6"
-    axios "^0.21.0"
-    ws "^7.3.1"
-
-erela.js@^2.3.3:
+erela.js@^2.2.0, erela.js@^2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/erela.js/-/erela.js-2.3.3.tgz#22b43e29315c2fcdc8e070beda93eb3f34405c16"
   integrity sha512-tzowGHLSodZr2j311csFSqm9lwE6plqeULTAwPwuRX9PQbXg4Ohdy/3MTMWrltiFAMSIG/5r9GQtTUt9Mqzhhw==
