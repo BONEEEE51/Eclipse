@@ -1,7 +1,7 @@
-import { ShardingManager } from 'discord.js'
-import logger from './modules/logger'
-import chalk from 'chalk'
-import fs from 'fs'
+const { ShardingManager } = require('discord.js')
+const logger = require('./modules/logger')
+const chalk = require('chalk')
+const fs = require('fs')
 
 const logo = fs.readFileSync('./logo.txt').toString()
 console.log(chalk.blueBright(logo), '\n')
